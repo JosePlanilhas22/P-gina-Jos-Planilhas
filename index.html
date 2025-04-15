@@ -1,9 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>José Planilhas - Home</title>
+    <title>José Planilhas - Planilhas Excel para Personal Trainers e Nutricionistas</title>
+    <meta name="description" content="Planilhas personalizadas em Excel para Personal Trainers e Nutricionistas. Organize treinos, avaliações físicas, planos alimentares e mais. Fale conosco!">
+    <meta name="keywords" content="personal trainer, educação física, antropometria, avaliação física, postural, flexibilidade, treinos, nutricionistas, plano alimentar, TACO, IBGE, equivalentes, DRIS, eutrofia, curvas de crescimento, planilhas Excel, José Planilhas">
+    <meta name="author" content="José Planilhas">
+    <meta name="robots" content="index, follow">
+    <!-- Open Graph para redes sociais -->
+    <meta property="og:title" content="José Planilhas - Excel para Personal Trainers e Nutricionistas">
+    <meta property="og:description" content="Soluções em Excel para treinos, avaliações físicas, antropometria, planos alimentares, DRIS e mais. Contate-nos pelo WhatsApp!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.joseplanilhas.com.br">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="José Planilhas - Planilhas Excel para Personal Trainers e Nutricionistas">
+    <meta name="twitter:description" content="Planilhas para educação física, treinos, nutrição, planos alimentares e curvas de crescimento. Fale com a José Planilhas!">
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.joseplanilhas.com.br">
     <style>
         * {
             margin: 0;
@@ -68,6 +83,12 @@
             color: #1F2328;
         }
 
+        .planilha-card p {
+            padding: 0 1rem 1rem;
+            font-size: 0.9rem;
+            color: #1F2328;
+        }
+
         .contato {
             background: #107C41;
             color: white;
@@ -123,36 +144,40 @@
 <body>
     <header>
         <h1>José Planilhas</h1>
-        <p>Soluções personalizadas para sua organização com Excel</p>
+        <p>Planilhas Excel para Personal Trainers e Nutricionistas</p>
     </header>
 
-    <div class="container">
-        <section class="planilhas">
+    <main class="container">
+        <section class="planilhas" aria-labelledby="planilhas-title">
+            <h2 id="planilhas-title">Nossas Planilhas Personalizadas</h2>
             <div class="planilha-card">
                 <iframe src="https://www.youtube.com/embed/W2XP5WAc2rs" 
-                        title="Planilha Personal Trainer" 
+                        title="Planilha Excel para Personal Trainer: Treinos e Avaliação Física" 
                         allowfullscreen></iframe>
                 <h3>Personal Trainer</h3>
+                <p>Planilhas Excel para organizar <strong>treinos</strong>, realizar <strong>avaliação física</strong>, <strong>antropometria</strong>, <strong>postural</strong> e monitorar <strong>flexibilidade</strong>. Ideal para profissionais de <strong>Educação Física</strong>.</p>
             </div>
             <div class="planilha-card">
                 <iframe src="https://www.youtube.com/embed/JrcU03-Ftrk" 
-                        title="Planilha Nutricionista" 
+                        title="Planilha Excel para Nutricionistas: Plano Alimentar e DRIS" 
                         allowfullscreen></iframe>
                 <h3>Nutricionista</h3>
+                <p>Crie <strong>planos alimentares</strong> com base em <strong>TACO</strong>, <strong>IBGE</strong>, <strong>equivalentes</strong> e <strong>DRIS</strong>. Gerencie <strong>eutrofia</strong> e acompanhe <strong>curvas de crescimento</strong> com nossas planilhas.</p>
             </div>
         </section>
 
-        <section class="contato">
-            <h2>Entre em Contato</h2>
-            <p>Email: planilhas.jose@gmail.com</p>
-            <p>WhatsApp: (15) 98820-5805</p>
+        <section class="contato" aria-labelledby="contato-title">
+            <h2 id="contato-title">Entre em Contato</h2>
+            <p>Email: <a href="mailto:planilhas.jose@gmail.com" style="color: white;">planilhas.jose@gmail.com</a></p>
+            <p>WhatsApp: <a href="tel:+5515988205805" style="color: white;">(15) 98820-5805</a></p>
             <a href="https://wa.me/5515988205805?text=Olá,%20vim%20pelo%20José%20Planilhas.%20Gostaria%20de%20mais%20informações." 
                class="whatsapp-btn" 
-               target="_blank">
+               target="_blank" 
+               aria-label="Fale com José Planilhas pelo WhatsApp">
                Fale pelo WhatsApp
             </a>
         </section>
-    </div>
+    </main>
 
     <footer>
         <p>© 2025 José Planilhas. Todos os direitos reservados.</p>
