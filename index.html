@@ -9,17 +9,17 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
+            font-family: 'Segoe UI', 'Arial', sans-serif;
         }
 
         body {
-            background-color: #f4f4f9;
-            color: #333;
+            background-color: #F5F6F5;
+            color: #1F2328;
             line-height: 1.6;
         }
 
         header {
-            background: linear-gradient(135deg, #2c3e50, #3498db);
+            background: linear-gradient(135deg, #107C41, #4CAF50);
             color: white;
             text-align: center;
             padding: 3rem 1rem;
@@ -36,6 +36,23 @@
             padding: 2rem;
         }
 
+        .vba-section {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .vba-section h2 {
+            color: #107C41;
+            margin-bottom: 1rem;
+        }
+
+        .vba-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
         .planilhas {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -44,7 +61,8 @@
         }
 
         .planilha-card {
-            background: white;
+            background: #FFFFFF;
+            border: 1px solid #D1D3D4;
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -64,11 +82,11 @@
         .planilha-card h3 {
             padding: 1rem;
             text-align: center;
-            color: #2c3e50;
+            color: #1F2328;
         }
 
         .contato {
-            background: #3498db;
+            background: #107C41;
             color: white;
             padding: 2rem;
             border-radius: 10px;
@@ -103,7 +121,7 @@
         footer {
             text-align: center;
             padding: 1rem;
-            background: #2c3e50;
+            background: #1F2328;
             color: white;
             margin-top: 2rem;
         }
@@ -116,16 +134,25 @@
             .container {
                 padding: 1rem;
             }
+
+            .vba-section img {
+                max-width: 90%;
+            }
         }
     </style>
 </head>
 <body>
     <header>
         <h1>José Planilhas</h1>
-        <p>Soluções personalizadas para sua organização</p>
+        <p>Soluções personalizadas para sua organização com Excel VBA</p>
     </header>
 
     <div class="container">
+        <section class="vba-section">
+            <h2>Nossas Soluções em Excel VBA</h2>
+            <img src="https://via.placeholder.com/800x400?text=Editor+Excel+VBA" alt="Editor Excel VBA">
+        </section>
+
         <section class="planilhas">
             <div class="planilha-card">
                 <iframe src="https://www.youtube.com/embed/W2XP5WAc2rs" 
