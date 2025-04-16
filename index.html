@@ -139,35 +139,51 @@
                 padding: 1rem;
             }
         }
-.main-nav {
-    margin-top: 1.5rem;
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-}
+        .main-nav {
+            margin-top: 1.5rem;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
 
-.nav-link {
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
 
-.nav-link:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-}
+        .nav-link:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
         
+        /* Estilos para o banner */
+        .banner-container {
+            width: 100%;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+        
+        .banner-img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
     </style>
 </head>
 <body>
     <header>
+        <h1>José Planilhas</h1>
+        <p>Planilhas Excel para Personal Trainers e Nutricionistas</p>
+    </header>
 
-<header>
-    <h1>José Planilhas</h1>
-    <p>Planilhas Excel para Personal Trainers e Nutricionistas</p>
-</header>
+    <!-- Banner adicionado aqui -->
+    <div class="banner-container">
+        <img src="banner.jpg" alt="Banner José Planilhas - Soluções em Excel para Profissionais de Saúde" class="banner-img">
+    </div>
+
     <main class="container">
         <section class="planilhas" aria-labelledby="planilhas-title">
             <div class="planilha-card">
